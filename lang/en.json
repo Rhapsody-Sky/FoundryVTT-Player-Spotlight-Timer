@@ -1,0 +1,39 @@
+{
+  "SPOTLIGHT": {
+    "Title": "Spotlight Timer",
+    "Drag": "Drag to move",
+    "Pause": "Pause all timers",
+    "Resume": "Resume all timers",
+    "ResetAll": "Reset all timers",
+    "ResetPlayer": "Reset {name}",
+    "Pin": "Pin in place",
+    "Unpin": "Unpin (allow dragging)",
+    "DockControls": "Dock to scene controls",
+    "DockSidebar": "Dock to sidebar",
+    "Undock": "Undock to canvas",
+    "Configure": "Configure",
+    "Close": "Close",
+    "WarnAfter": "Warning after",
+    "WarnHint": "Player becomes visible and turns yellow.",
+    "Maximum": "Maximum",
+    "MaxHint": "Player turns red and the timer pulses.",
+    "Minutes": "min",
+    "ChipsPos": "Player chips",
+    "Below": "Below",
+    "Above": "Above",
+    "Grow": "Grow toward",
+    "Left": "Left",
+    "Right": "Right",
+    "DockTo": "Dock to",
+    "Tools": "Tools",
+    "Sidebar": "Sidebar",
+    "Settings": {
+      "Warn": "Warning after (minutes)",
+      "WarnHint": "A player who hasn't had the spotlight this long appears and turns yellow.",
+      "Max": "Maximum (minutes)",
+      "MaxHint": "A player who hasn't had the spotlight this long turns red and the widget pulses.",
+      "Opacity": "Idle opacity",
+      "OpacityHint": "How visible the floating widget is when nobody needs attention and it isn't hovered."
+    }
+  }
+}

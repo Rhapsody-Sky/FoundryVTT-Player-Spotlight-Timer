@@ -1,0 +1,39 @@
+{
+  "SPOTLIGHT": {
+    "Title": "Minuteur de projecteur",
+    "Drag": "Glisser pour déplacer",
+    "Pause": "Mettre tous les minuteurs en pause",
+    "Resume": "Reprendre tous les minuteurs",
+    "ResetAll": "Réinitialiser tous les minuteurs",
+    "ResetPlayer": "Réinitialiser {name}",
+    "Pin": "Épingler la position",
+    "Unpin": "Désépingler (autoriser le déplacement)",
+    "DockControls": "Ancrer aux contrôles de scène",
+    "DockSidebar": "Ancrer à la barre latérale",
+    "Undock": "Détacher",
+    "Configure": "Configurer",
+    "Close": "Fermer",
+    "WarnAfter": "Alerte après",
+    "WarnHint": "Le joueur devient visible et passe en jaune.",
+    "Maximum": "Maximum",
+    "MaxHint": "Le joueur passe en rouge et le minuteur clignote.",
+    "Minutes": "min",
+    "ChipsPos": "Étiquettes des joueurs",
+    "Below": "En dessous",
+    "Above": "Au-dessus",
+    "Grow": "S'étendre vers",
+    "Left": "Gauche",
+    "Right": "Droite",
+    "DockTo": "Ancrer à",
+    "Tools": "Outils",
+    "Sidebar": "Barre latérale",
+    "Settings": {
+      "Warn": "Alerte après (minutes)",
+      "WarnHint": "Un joueur resté hors du projecteur aussi longtemps apparaît et passe en jaune.",
+      "Max": "Maximum (minutes)",
+      "MaxHint": "Un joueur resté hors du projecteur aussi longtemps passe en rouge et le widget clignote.",
+      "Opacity": "Opacité au repos",
+      "OpacityHint": "Visibilité du widget flottant lorsque personne n'a besoin d'attention et qu'il n'est pas survolé."
+    }
+  }
+}

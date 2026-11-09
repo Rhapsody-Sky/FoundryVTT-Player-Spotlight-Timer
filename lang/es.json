@@ -1,0 +1,39 @@
+{
+  "SPOTLIGHT": {
+    "Title": "Temporizador de protagonismo",
+    "Drag": "Arrastrar para mover",
+    "Pause": "Pausar todos los temporizadores",
+    "Resume": "Reanudar todos los temporizadores",
+    "ResetAll": "Reiniciar todos los temporizadores",
+    "ResetPlayer": "Reiniciar a {name}",
+    "Pin": "Fijar posición",
+    "Unpin": "Desfijar (permitir arrastrar)",
+    "DockControls": "Acoplar a los controles de escena",
+    "DockSidebar": "Acoplar a la barra lateral",
+    "Undock": "Desacoplar",
+    "Configure": "Configurar",
+    "Close": "Cerrar",
+    "WarnAfter": "Aviso tras",
+    "WarnHint": "El jugador se vuelve visible y se marca en amarillo.",
+    "Maximum": "Máximo",
+    "MaxHint": "El jugador se marca en rojo y el temporizador parpadea.",
+    "Minutes": "min",
+    "ChipsPos": "Fichas de jugador",
+    "Below": "Abajo",
+    "Above": "Arriba",
+    "Grow": "Crecer hacia",
+    "Left": "Izquierda",
+    "Right": "Derecha",
+    "DockTo": "Acoplar a",
+    "Tools": "Herramientas",
+    "Sidebar": "Barra lateral",
+    "Settings": {
+      "Warn": "Aviso tras (minutos)",
+      "WarnHint": "Un jugador que lleva este tiempo sin protagonismo aparece y se marca en amarillo.",
+      "Max": "Máximo (minutos)",
+      "MaxHint": "Un jugador que lleva este tiempo sin protagonismo se marca en rojo y el widget parpadea.",
+      "Opacity": "Opacidad en reposo",
+      "OpacityHint": "Visibilidad del widget flotante cuando nadie necesita atención y el ratón no está encima."
+    }
+  }
+}

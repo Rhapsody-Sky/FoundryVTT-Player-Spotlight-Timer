@@ -1,0 +1,39 @@
+{
+  "SPOTLIGHT": {
+    "Title": "Spotlight-Timer",
+    "Drag": "Ziehen zum Verschieben",
+    "Pause": "Alle Timer pausieren",
+    "Resume": "Alle Timer fortsetzen",
+    "ResetAll": "Alle Timer zurücksetzen",
+    "ResetPlayer": "{name} zurücksetzen",
+    "Pin": "Position fixieren",
+    "Unpin": "Lösen (Verschieben erlauben)",
+    "DockControls": "An Szenensteuerung andocken",
+    "DockSidebar": "An Seitenleiste andocken",
+    "Undock": "Abdocken",
+    "Configure": "Einstellungen",
+    "Close": "Schließen",
+    "WarnAfter": "Warnung nach",
+    "WarnHint": "Spieler wird sichtbar und gelb markiert.",
+    "Maximum": "Maximum",
+    "MaxHint": "Spieler wird rot markiert und der Timer pulsiert.",
+    "Minutes": "Min.",
+    "ChipsPos": "Spieler-Chips",
+    "Below": "Unten",
+    "Above": "Oben",
+    "Grow": "Wachsen nach",
+    "Left": "Links",
+    "Right": "Rechts",
+    "DockTo": "Andocken an",
+    "Tools": "Werkzeuge",
+    "Sidebar": "Seitenleiste",
+    "Settings": {
+      "Warn": "Warnung nach (Minuten)",
+      "WarnHint": "Ein Spieler, der so lange nicht im Spotlight war, wird sichtbar und gelb markiert.",
+      "Max": "Maximum (Minuten)",
+      "MaxHint": "Ein Spieler, der so lange nicht im Spotlight war, wird rot markiert und das Widget pulsiert.",
+      "Opacity": "Deckkraft im Ruhezustand",
+      "OpacityHint": "Wie sichtbar das schwebende Widget ist, wenn niemand Aufmerksamkeit braucht und es nicht überfahren wird."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "SPOTLIGHT": {
+    "Title": "聚光灯计时器",
+    "Drag": "拖动以移动",
+    "Pause": "暂停所有计时器",
+    "Resume": "继续所有计时器",
+    "ResetAll": "重置所有计时器",
+    "ResetPlayer": "重置 {name}",
+    "Pin": "固定位置",
+    "Unpin": "取消固定（允许拖动）",
+    "DockControls": "停靠到场景控制栏",
+    "DockSidebar": "停靠到侧边栏",
+    "Undock": "取消停靠",
+    "Configure": "设置",
+    "Close": "关闭",
+    "WarnAfter": "警告时间",
+    "WarnHint": "玩家变为可见并标为黄色。",
+    "Maximum": "上限",
+    "MaxHint": "玩家标为红色，计时器闪烁。",
+    "Minutes": "分钟",
+    "ChipsPos": "玩家标签",
+    "Below": "下方",
+    "Above": "上方",
+    "Grow": "展开方向",
+    "Left": "左",
+    "Right": "右",
+    "DockTo": "停靠到",
+    "Tools": "工具",
+    "Sidebar": "侧边栏",
+    "Settings": {
+      "Warn": "警告时间（分钟）",
+      "WarnHint": "超过此时间未获得聚光灯的玩家会显示出来并标为黄色。",
+      "Max": "上限（分钟）",
+      "MaxHint": "超过此时间未获得聚光灯的玩家会标为红色，组件开始闪烁。",
+      "Opacity": "空闲时不透明度",
+      "OpacityHint": "无人需要关注且鼠标未悬停时，浮动组件的可见程度。"
+    }
+  }
+}
