@@ -45,9 +45,10 @@ class SpotlightTimer {
   get revealed() { return this.hover || this.settingsOpen || this.dragging; }
 
   // Each player's idle time = acc[id] + time elapsed in the current running stretch.
-  idle(id) {
-    if (!(id in this.timers.acc)) this.timers.acc[id] = -this.elapsed;
-    return this.timers.acc[id] + this.elapsed;
+  // Pass one `e` for all players so they are measured at the same instant.
+  idle(id, e = this.elapsed) {
+    if (!(id in this.timers.acc)) this.timers.acc[id] = -e;
+    return this.timers.acc[id] + e;
   }
   level(t) { return t >= this.max ? 2 : t >= this.warn ? 1 : 0; }
 
@@ -70,7 +71,8 @@ class SpotlightTimer {
     this.refresh();
   }
   resetAll() {
-    for (const u of this.players) this.timers.acc[u.id] = -this.elapsed;
+    const e = this.elapsed;
+    for (const u of this.players) this.timers.acc[u.id] = -e;
     this.saveTimers();
     this.refresh();
   }
@@ -252,8 +254,13 @@ class SpotlightTimer {
     const players = this.players;
     if (players.length !== this.chipEls?.size || players.some(u => !this.chipEls.has(u.id))) return this.buildChips();
 
-    const rows = players.map(u => { const t = this.idle(u.id); return { id: u.id, t, lvl: this.level(t) }; })
-      .sort((a, b) => b.t - a.t);
+    // Sort by the whole seconds shown; on a tie keep the current order, so equal
+    // clocks (e.g. right after "reset all") don't swap places on every tick.
+    const e = this.elapsed;
+    const prev = (this.order ?? "").split(",");
+    const rank = id => { const i = prev.indexOf(id); return i < 0 ? prev.length + players.findIndex(u => u.id === id) : i; };
+    const rows = players.map(u => { const t = this.idle(u.id, e); return { id: u.id, t, lvl: this.level(t) }; })
+      .sort((a, b) => Math.floor(b.t) - Math.floor(a.t) || rank(a.id) - rank(b.id));
     const top = Math.max(0, ...rows.map(r => r.lvl));
     const reveal = this.revealed;
 

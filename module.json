@@ -2,7 +2,7 @@
   "id": "player-spotlight-timer",
   "title": "Player Spotlight Timer",
   "description": "GM-only widget that tracks how long each connected player has gone without the spotlight. Fades out of the way until someone needs attention.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     { "name": "Rhapsody-Sky", "url": "https://github.com/Rhapsody-Sky" }
   ],
@@ -23,5 +23,5 @@
   "readme": "https://github.com/Rhapsody-Sky/FoundryVTT-Player-Spotlight-Timer/blob/main/README.md",
   "license": "https://github.com/Rhapsody-Sky/FoundryVTT-Player-Spotlight-Timer/blob/main/LICENSE",
   "manifest": "https://github.com/Rhapsody-Sky/FoundryVTT-Player-Spotlight-Timer/releases/latest/download/module.json",
-  "download": "https://github.com/Rhapsody-Sky/FoundryVTT-Player-Spotlight-Timer/releases/download/v0.1.0/module.zip"
+  "download": "https://github.com/Rhapsody-Sky/FoundryVTT-Player-Spotlight-Timer/releases/download/v0.1.1/module.zip"
 }
